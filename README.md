@@ -18,4 +18,6 @@ I am still unsure of whether this is the most effective strategy to most efficie
 UPDATES
 -------
 02/07/2024 - First prototype uploaded. This prototype only contains the text game, and while functionality is in working order, the code is inefficient and not properly structured. An updated version will be released shortly. 
+-------
 03/07/2023 - Code has been refactored into individual py files, made more efficient, documentation added including docstrings, comments, type hints. Overall, more readable and easily extendable. Now has the option of changing the number of decks during the game and simulation. 
+-------
