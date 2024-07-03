@@ -6,13 +6,16 @@ This position in the 3x3 grid is no longer in play.
 If the player can correctly guess enough cards in order to complete the deck while still having at least one position in the grid face up, they win. 
 If the player guesses incorrectly 9 times, thus resulting in each position in the grid to be face down, they lose. 
 
+This program simulates many games of Beat the Deck with supposedly perfect strategy based on probability to find the estimated win rate.
+
 This project was based on a previous project of mine which was abandoned, consisting of simulations of the card game blackjack, where I attempted to calculate the efficiency of card counting through repeated simulations. 
 By running the simulations file, you can adjust the number of simulations run, and find the approximate win percentage of the game. 
 
-DISCLAIMER!!!
+DISCLAIMER
 -------------
 I am still unsure of whether this is the most effective strategy to most efficiently beat the deck, so take the simulations with a grain of salt. 
 
 UPDATES
 -------
 02/07/2024 - First prototype uploaded. This prototype only contains the text game, and while functionality is in working order, the code is inefficient and not properly structured. An updated version will be released shortly. 
+03/07/2023 - Code has been refactored into individual py files, made more efficient, documentation added including docstrings, comments, type hints. Overall, more readable and easily extendable. Now has the option of changing the number of decks during the game and simulation. 
